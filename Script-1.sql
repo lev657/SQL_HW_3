@@ -35,6 +35,6 @@ id_album integer references album(id)
 create table if not exists collection_track(
 id serial primary key,
 id_track integer references track(id),
-id_collection integer references collection(id),
-id_album integer references album(id)
+id_collection integer references collection(id)
 );
+
