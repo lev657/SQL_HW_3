@@ -50,6 +50,8 @@ insert into album
 	values(9,'Drones', 2015);
 insert into album 
 	values(10,'Lost and Found', 2021);
+insert into album 
+	values(11,'Super', 2022);
 
 insert into track 
 	values
@@ -87,6 +89,10 @@ insert into track
 	(18,'Revolt', 5.5, 9),
 	(19,'My conception', 4.5, 10),
 	(20,'Cool Strutting', 9.5, 10);
+insert into track
+	values
+	(21,'Ничего святого', 4, 2),
+	(22,'Черная дыра', 4, 2);
 
 insert into collection 
 	values 
@@ -124,6 +130,11 @@ insert into artist_album
 	(8, 8, 8),
 	(9, 9, 9),
 	(10, 10, 10);
+
+insert into artist_album 
+	values 
+	(11, 4, 11),
+	(12, 8, 11);
 
 insert into collection_track 
 	values 
